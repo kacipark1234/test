@@ -1,0 +1,32 @@
+JAVA
+
+繼承:繼承於父類別 可以使用父類別的功能
+
+class 車輛{
+	void 功能(){
+		.....
+	}
+}
+class 汽車 extends 車輛{
+	
+}
+class 機車 extends 車輛{
+	
+}
+
+介面:擁有相同功能但執行功能內方法完全不同
+
+interface  車輛{
+	void 功能();
+}
+class 汽車 implements 車輛{
+	void 功能(){
+		.....
+	}
+}
+class 機車 implements 車輛{
+	void 功能(){
+		.....
+	}
+}
+
